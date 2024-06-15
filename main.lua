@@ -1,29 +1,3 @@
--- Say(string, int, [str1, str2,...])
--- 	int là số lượng các str phía sau nó.
--- 		VD: Say("text1", 2, "yes/foo", "no/fa")
--- 		yes/foo: có nghĩa khi chọn yes sẽ call function foo() ở trong file đấy
--- 		no/fa: có nghĩa khi chọn no sẽ call function fa() ở trong file đấy
-
--- SetTask(id, value)
--- 	id là mã lưu có định dạng là int
--- 	value là giá trị của mã lưu
-	
--- GetTask(id)
--- 	Dùng để lấy giá trị của mã lưu.
-	
--- AddGift()
--- 	Dùng để đưa phần quà.
-	
--- Include(filename)
--- 	Dùng để include code của một 1 LUA khác vào file LUA hiện tại.
-
-    	
--- Tự nghĩ ra một chuỗi đối thoại ít nhất 5 bước.
--- Mỗi bước là một file LUA, hàm thực thi của mỗi file LUA luôn mặc định là function main().
-
--- 	1 trong các bước yêu cầu sử dụng hàm Say phía trên có 5 lựa chọn nhưng 5 lựa chọn này phải có thứ tự ngẫu nhiên khi được gọi thực thi.
--- 	Mỗi bước chỉ có thể thực thi duy nhất một lần khi thực thi lại từ bước 1 sẽ có thông báo là đã thực hiện rồi, từ bước thứ 2 trở đi phải có 1 lựa chọn hủy để thực hiện lại từ đầu. ở bước cuối cùng thì không thể hủy.
-
 localcheckReset = false
 restartValue = -1
 Restart = 1
@@ -175,5 +149,3 @@ while cnt < 5 do
     end
 end
 print("Ban da hoan thanh voi diem so la: "..score)
-
--- Include("cauHoi")
