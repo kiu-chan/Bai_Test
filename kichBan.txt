@@ -1,0 +1,9 @@
+Phiên bản lua5.4.2
+Khi chạy file main.lua người dùng sẽ phải thực hiện chuỗi đối thoại gồm 5 bước ngẫu nhiên, bao gồm
+- Câu hỏi: Người dùng thực hiện lựa chọn những bước mà bản thân chưa thực hiện, nếu đây là bước cuối cùng sẽ hiện 1 lựa chọn duy nhất là ok
+- Chơi game: Người dùng thực hiện đoán số ngẫu nhiên và có gợi ý sau mỗi lần chọn sai
+- Giới thiệu: Người dùng giới thiệu bản thân
+- Tặng quà: Người dùng được tặng điểm số ngẫu nhiên từ 1 đến 100
+- Xem thông tin: Hiện thông tin người dùng, nếu chưa có thông tin chỉ hiện điểm số
+
+Người dùng có thể thực hiện lại từ đầu khi chạy từ bước 2 nếu nhập vào giá trị -1, tiếp tục khi nhập giá trị bất kỳ. Tại bước cuối cùng không thể thực hiện lại
